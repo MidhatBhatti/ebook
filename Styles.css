@@ -1,0 +1,53 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.book {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.book:hover{
+    background-position: 5cm;
+    background-color: rgb(136, 136, 136);
+}
+
+.book img {
+    max-width: 100%;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.buy-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #2980b9;
+}
